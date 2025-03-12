@@ -46,7 +46,7 @@ class Application:
         logging.info(f"Query completed successfully - The answer to the question '{queryText}' is '{answer}'")
 
     def get_answer_from_llm(self, context: str, question: str) -> str:
-        llm_prompt = f"Setup: You are a helpdesk assistant. " \
+        llm_prompt = f"Setup: You are a programming specialist. " \
                      f"You are given a question and a context. " \
                      f"You need to provide an answer to the question based on the context. " \
                      f"Question: {question} " \
